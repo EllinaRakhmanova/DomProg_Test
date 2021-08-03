@@ -1,0 +1,139 @@
+.header-block {
+    text-align: center;
+}
+
+.content-block {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+:host {
+    font-family: Verdana;
+    color: #555;
+}
+
+.form-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fa-times-circle {
+    font-size: 35px;
+    color: rgb(97, 100, 102);
+    margin-left: auto;
+    padding-bottom: 20px;
+}
+
+.fa-times-circle:hover {
+    color: rgb(115, 117, 117);
+}
+
+.fa-times-circle:active {
+    color: rgb(169, 172, 173);
+}
+
+form {
+    width: 500px;
+    height: 300px;
+    margin: 60px auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form-content {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: solid rgb(97, 100, 102) 2px;
+}
+
+.danger {
+    border: solid rgba(250, 81, 81, 0.822) 2px;
+}
+
+.show {
+    display: block;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(97, 100, 102);
+    color: beige;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: rgb(115, 117, 117);
+}
+
+button:active {
+    background-color: rgb(169, 172, 173);
+}
+
+.add-btn {
+    height: 80px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(250, 59, 59);
+    color: beige;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.add-btn:hover {
+    background-color: rgb(247, 84, 84);
+}
+
+.add-btn:active {
+    background-color: rgb(252, 109, 109);
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    width: 350px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(97, 100, 102);
+    color: beige;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: rgb(115, 117, 117);
+}
+
+button:active {
+    background-color: rgb(169, 172, 173);
+}
